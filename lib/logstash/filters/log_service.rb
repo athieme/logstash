@@ -37,9 +37,6 @@ class LogStash::Filters::LogService < LogStash::Filters::Base
 
     if @index and @application and @domain
 
-      slept = sleep(0.75)
-      @logger.error("~~~~~~~~~~~~~~~~~~~~slept", :slept => slept)
-
       index_name = index_name(event)
       @logger.error("index name", :index_name => index_name)
 
