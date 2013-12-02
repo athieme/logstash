@@ -1,12 +1,14 @@
 #
+# Copyright (c) 2013 Alex Thieme
 #
-#
-
 require "logstash/namespace"
 require "logstash/filters/base"
 require "logstash/util/log_service_http_util"
 require "logstash/util/log_service_util"
 
+#
+# Log filter used to query for and create the proper indexes and index aliases
+#
 class LogStash::Filters::LogService < LogStash::Filters::Base
 
   config_name "log_service"

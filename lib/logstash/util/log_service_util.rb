@@ -1,10 +1,13 @@
 #
-#
+# Copyright (c) 2013 Alex Thieme
 #
 require "logstash/namespace"
 require "logstash/util"
 require "logstash/util/log_service_http_util"
 
+#
+# Log service Elastic Search utility class
+#
 class LogStash::Util::LogServiceUtil
 
   public

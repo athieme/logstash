@@ -1,9 +1,12 @@
 #
-#
+# Copyright (c) 2013 Alex Thieme
 #
 require "logstash/namespace"
 require "test_utils"
 
+#
+#
+#
 describe LogStash::Filters::LogService do
   extend LogStash::RSpec
 

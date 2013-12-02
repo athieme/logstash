@@ -1,10 +1,13 @@
 #
-#
+# Copyright (c) 2013 Alex Thieme
 #
 require "logstash/namespace"
 require "logstash/util"
 require "ftw"
 
+#
+# HTTP utility class
+#
 class LogStash::Util::LogServiceHttpUtil
 
   public
