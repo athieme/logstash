@@ -4,6 +4,8 @@
 
 require "logstash/namespace"
 require "logstash/filters/base"
+require "logstash/util/log_service_http_util"
+require "logstash/util/log_service_util"
 
 class LogStash::Filters::LogService < LogStash::Filters::Base
 

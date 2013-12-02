@@ -3,6 +3,7 @@
 #
 require "logstash/namespace"
 require "logstash/util"
+require "logstash/util/log_service_http_util"
 
 class LogStash::Util::LogServiceUtil
 
